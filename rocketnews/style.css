@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+
+    font-family: "Work Sans", "League Spartan", "Sans Serif";
+    background-image: url(assets/read_news.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    
+}
+
+.bg-color {
+    background-color: #121214;
+    width: 50vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tree-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+.tree-container .logo-container {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.tree-container .logo-container img {
+    width: 389px;
+    height: 94px;
+
+}
+
+.tree-container .presentation-container {
+    margin-left: 36px;
+    margin-top: 236px;
+}
+.tree-container .presentation-container h1 {
+    color: #04D361;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 9px;    
+}
+
+.tree-container .presentation-container h2 {
+    color: #E1E1E6;
+    font-weight: 700;
+    font-size: 0.88rem;
+    margin-bottom: 9px; 
+}
+.tree-container .presentation-container span {
+    color: #E1E1E6;
+    font-weight: 400;
+    font-size: 0,88rem;
+    margin-bottom: 9px; 
+}
+
+.tree-container .email-container {
+    margin-left: 36px;
+    margin-top: 50px;
+}
+
+.tree-container .email-container label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+
+
+
+.email-container .email-input-container {
+    margin-top: 17px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    display: flex;
+
+}
+
+.email-input-container .email-input {
+    width: 46.88rem;
+    height: 48px;
+}
+
+.email-input-container .email-button {
+    height: 3rem;
+    width: 48px;
+    background-color: #8257e5;
+}
+
+.email-input-container .email-button button{
+    background-color: transparent;
+}
+
+.tree-container .accessnews-container {
+    margin-left: 36px;
+    margin-top: 50px;
+}
+
+.accessnews-container .accessnews {
+    color: #8257e5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+}
