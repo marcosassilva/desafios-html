@@ -1,1 +1,1 @@
-# Desafios de HTML disponíveis no curso Discover da Rocketseat.
+# Desafios de HTML/CSS Iniciantes disponíveis no curso Discover da Rocketseat

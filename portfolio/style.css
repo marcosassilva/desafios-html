@@ -92,7 +92,9 @@ a {
 
 /* Estilização e alinhamento padrão de todas as seções. */
 
-.sidebar-container .profile-container, .sidebar-container .links-container, .sidebar-container .tech-container, .sidebar-container .experiences-container, .sidebar-container .education-container, .content-container .projects-title-container, .content-container .project-container, .content-container .posts-title-container, .content-container .posts-container {
+/* .sidebar-container .profile-container, .sidebar-container .links-container, .sidebar-container .tech-container, .sidebar-container .experiences-container, .sidebar-container .education-container, .content-container .projects-title-container, .content-container .project-container, .content-container .posts-title-container, .content-container .posts-container  */
+
+.sidebar-container > *, .content-container > *:not(:nth-child(2)), .projects-group-container > * {
     background: var(--bg-cards);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
